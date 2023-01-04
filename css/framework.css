@@ -1,9 +1,28 @@
+:root {
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --orange-color: #f59e0b;
+  --green-color: #22c55e;
+  --red-color: #f44336;
+  --grey-color: #888;
+}
 /* Start Box */
 .d-flex {
   display: flex;
 }
 .align-center {
   align-items: center;
+}
+.d-grid {
+  display: grid;
+}
+.gap-20 {
+  gap: 20px;
+}
+@media (max-width: 767px) {
+  .block-mobile {
+    display: block;
+  }
 }
 /* End Box */
 /* Start Padding + Margin */
@@ -27,6 +46,9 @@
 .bg-white {
   background-color: white;
 }
+.bg-eee {
+  background-color: #eee;
+}
 .c-black {
   color: black;
 }
@@ -45,6 +67,11 @@
 }
 .fs-14 {
   font-size: 14px;
+}
+@media (max-width: 767px) {
+  .txt-c-mobile {
+    text-align: center;
+  }
 }
 /* End Font */
 /* Start Border */
