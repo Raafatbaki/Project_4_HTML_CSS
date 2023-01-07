@@ -195,6 +195,9 @@
 .b-none {
   border: none;
 }
+.border-ccc {
+  border: 1px solid #ccc;
+}
 /* End Border */
 /* Start Width + Height */
 .w-full {
